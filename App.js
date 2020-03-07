@@ -2,7 +2,7 @@ import React, {useState}  from 'react';
 import { AppLoading } from 'expo';
 import { StyleSheet, Text, View } from 'react-native';
 // Redux Imports
-import { PersistGate } from 'redux-persist/integration/react';
+import { PersistGate } from 'redux-persist/es/integration/react';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 // React Navigation Imports
@@ -14,10 +14,16 @@ import * as Font from 'expo-font';
 import LandingScreen from './src/screens/LandingScreen'
 import MapScreen from './src/screens/MapScreen'
 import OnboardingScreen from './src/screens/OnboardingScreen'
+// Configure Store
+import { store, persistor } from './src/store/store'
 
 const getFonts = () => Font.loadAsync({
-  'fira-sans-condensed-semi-bold': require('./assets/fonts/FiraSansCondensed-SemiBold.ttf'),
-  //'open-sans-bold': require('./assets/fonts/OpenSans-Bold.ttf')
+  'fira-sans-condensed-medium-italic': require('./assets/fonts/Fira_Sans_Condensed/FiraSansCondensed-MediumItalic.ttf'),
+  'fira-sans-condensed-semi-bold': require('./assets/fonts/Fira_Sans_Condensed/FiraSansCondensed-SemiBold.ttf'),
+  'fira-sans': require('./assets/fonts/Fira_Sans/FiraSans-Medium.ttf'),
+  'fira-sans-italic': require('./assets/fonts/Fira_Sans/FiraSans-MediumItalic.ttf'),
+  'fira-sans-black': require('./assets/fonts/Fira_Sans/FiraSans-Black.ttf'),
+  'fira-sans-bold': require('./assets/fonts/Fira_Sans/FiraSans-Bold.ttf'),
 });
 
 
@@ -30,10 +36,11 @@ export default function App(){
 
   return (
     <>
+      {/* <Provider store={store}>
+        <PersistGate loading={<AppLoading/>} persistor={persistor}> */}
       {
         fontsLoaded ? (
-          // <Provider store={store}>
-          //   <PersistGate loading={null} persistor={persistor}>
+
           <NavigationContainer>
             <Stack.Navigator headerMode="none">
               {true && (
@@ -45,8 +52,6 @@ export default function App(){
               <Stack.Screen name="Map" component={MapScreen} options={{ headerLeft: null, gestureEnabled: false }} />
             </Stack.Navigator>
           </NavigationContainer>
-          //   </PersistGate>
-          // </Provider>
         ) : (
           <AppLoading
             startAsync={getFonts}
@@ -54,7 +59,11 @@ export default function App(){
             onError={console.error}
           />
         )
+        
       }
+        {/* </PersistGate>
+      </Provider> */}
+
     </>
   );
 }

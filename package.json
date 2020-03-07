@@ -39,10 +39,5 @@
     "babel-preset-expo": "~8.0.0",
     "react-native-svg-transformer": "^0.14.3"
   },
-  "private": true,
-  "rnpm": {
-    "assets": [
-      "./assets/fonts/"
-    ]
-  }
+  "private": true
 }

@@ -8,14 +8,17 @@ import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 import SC from '../../styleConstants'
 // Image Imports
 import Logo from "../../assets/img/Hero.svg";
+import FadeInView from '../components/FadeInView'
 
 export default function LandingScreen({navigation}) {
     return (
       <View style={styles.container}>
         <Logo style={styles.logo}/>
-        <Text style={styles.welcomeText}>
-          Welcome to Bobcat Transit!
-        </Text>
+        <FadeInView>
+          <Text style={styles.welcomeText}>
+            Welcome to Bobcat Transit!
+          </Text>
+        </FadeInView>
         <TouchableOpacity style={styles.setupButton} onPress={() => navigation.navigate('Onboarding')}>
           <Text style={styles.setupText}>Let's Start!</Text>
         </TouchableOpacity>
@@ -41,14 +44,16 @@ const styles = StyleSheet.create({
   setupText:{
     color: 'white',
     fontSize: RFPercentage(3),
-    padding: 20
+    padding: 20,
+    fontFamily: 'fira-sans-condensed-semi-bold'
   },
   welcomeText:{
     textAlign: 'center',
     color: 'white',
     fontSize: RFPercentage(5),
     fontWeight: 'bold',
-    paddingHorizontal: 50
+    paddingHorizontal: 50,
+    fontFamily: 'fira-sans-bold'
   },
   skipButton:{
 
@@ -57,7 +62,8 @@ const styles = StyleSheet.create({
     color: '#ADADAD',
     fontStyle: 'italic',
     fontSize: RFPercentage(2),
-    padding: RFPercentage(2)
+    padding: RFPercentage(2),
+    fontFamily: 'fira-sans-italic'
   },
   logo:{
     width: '80%',

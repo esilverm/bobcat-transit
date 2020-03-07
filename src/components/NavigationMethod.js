@@ -8,24 +8,17 @@ import SC from '../../styleConstants';
 export default class NavigationMethod extends Component{
     render(){
         return(
-            <View style={styles.Container}>
-                <View style={styles.titleContainer}>
-                    <Text style={styles.title}>User Experience Design</Text>
-                    <Text style={styles.subTitle}>Starts in 55 minutes</Text>
+            <View style={styles.container}>
+                <View style={styles.methodTopBar}>
+                    <Text style={styles.minutesLeft}>
+                        Leave in {this.props.leaveMinutes} mins
+                    </Text>
                 </View>
-                <View style={styles.methodContainer}>
-                    <View style={styles.methodTopBar}>
-                        <MaterialCommunityIcons
-                            name={''}
-                            color={'#7A7A7A'}
-                            size={RFPercentage(4)}/>
-                    </View>
-                    <View style={styles.methodBottomBar}>
-                        <View style={styles.methodBottomLeftBar}>
-
-                        </View>
+                <View style={styles.methodBottomBar}>
+                    <View style={styles.methodBottomLeftBar}>
 
                     </View>
+
                 </View>
             </View>
         )
@@ -33,5 +26,22 @@ export default class NavigationMethod extends Component{
 }
 
 const styles = StyleSheet.create({
-    
-});
+    container:{
+        width: '100%',
+        height: 80,
+        borderBottomWidth: 0.5,
+        borderColor: '#d6d7da',
+    },
+    methodTopBar:{
+        width: '100%',
+        height: RFPercentage(3),
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    minutesLeft:{
+        color: '#525252',
+        fontSize: RFPercentage(2.4),
+        paddingHorizontal: RFPercentage(2),
+        paddingVertical: RFPercentage(0.5),
+        fontFamily: 'fira-sans-condensed-semi-bold'
+    }

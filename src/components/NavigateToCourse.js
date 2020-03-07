@@ -4,6 +4,7 @@ import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 // CSS constant styles
 import SC from '../../styleConstants';
+import NavigationMethod from './NavigationMethod.js'
 
 export default class NavigateToCourse extends Component{
     render(){
@@ -13,6 +14,11 @@ export default class NavigateToCourse extends Component{
                     <Text style={styles.title}>User Experience Design</Text>
                     <Text style={styles.subTitle}>Starts in 55 minutes</Text>
                 </View>
+                <NavigationMethod 
+                    type={'subway'} 
+                    leaveMinutes={36}
+                    emissions={1.8}
+                    cost={2.75}/>
             </View>
         )
     }
@@ -37,19 +43,19 @@ const styles = StyleSheet.create({
     },
     titleContainer:{
         width: '100%',
-        backgroundColor: '#E9E9E9',
-        borderTopLeftRadius: 10,
-        borderTopRightRadius: 10,
+        backgroundColor: '#6F407E',
+        borderTopLeftRadius: 9,
+        borderTopRightRadius: 9,
         padding: 10
     },
     title:{
         fontFamily: 'fira-sans-bold',
         fontSize: RFPercentage(2.6),
-        color: '#1E1E1E'
+        color: '#EAEAEA'
     }, 
     subTitle:{ 
         fontFamily: 'fira-sans-condensed-medium-italic',
         fontSize: RFPercentage(2),
-        color: '#414141'
+        color: '#C3C3C3'
     }
 });

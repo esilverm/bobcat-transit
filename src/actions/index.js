@@ -73,7 +73,7 @@ export const fetchCitiBikeStations = () => (dispatch) => {
    })
   
   const https = require('https');
-  
+
   const data = JSON.stringify({"s0":"1007","sA":1,"rA":0});
   const options = {
     hostname: 'passio3.com',

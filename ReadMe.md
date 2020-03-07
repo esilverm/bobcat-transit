@@ -15,5 +15,9 @@
 
 ## What's next?
 
-## Contributors
+## Authors
 
+* **Angie Li** - *UI/UX Design*
+* **Eric Wu** - *Developer* - [Wu-Bowen](https://github.com/Wu-Bowen)
+* **Ethan Printz** - *UI/UX Design* - [EthanPrintz](https://github.com/EthanPrintz)
+* **Evan Silverman** - *Developer* - [esilverm](https://github.com/esilverm)

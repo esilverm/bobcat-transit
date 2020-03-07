@@ -1,13 +1,15 @@
 // The landing screen is the first page of the 
 // onboarding sequence of the app
 import React, {useState} from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions} from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ScrollView} from 'react-native';
 // Mapping
 import MapView from 'react-native-maps';
 // Font Scaling
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 // CSS constant styles
 import SC from '../../styleConstants'
+// Components
+import BottomSheet from '../components/bottomSheet'
 
 let mapStyle = [
     {
@@ -130,7 +132,7 @@ let mapStyle = [
 
 export default function MapScreen() {
     return (
-      <View style={styles.container}>
+        <View style={styles.container}>
         <MapView
             style={styles.mapStyle}
             customMapStyle={mapStyle}
@@ -142,7 +144,8 @@ export default function MapScreen() {
                 longitudeDelta: 0.0421
             }}
         />
-      </View>
+        <BottomSheet/>
+        </View>
     );
 }
   

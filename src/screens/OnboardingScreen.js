@@ -10,7 +10,7 @@ import SC from '../../styleConstants'
 export default function OnboardingScreen() {
     return (
       <View style={styles.container}>
-        
+          <Text>Bottom Sheet</Text>
       </View>
     );
 }

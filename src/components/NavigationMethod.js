@@ -44,4 +44,5 @@ const styles = StyleSheet.create({
         paddingHorizontal: RFPercentage(2),
         paddingVertical: RFPercentage(0.5),
         fontFamily: 'fira-sans-condensed-semi-bold'
-    }
+    },
+})

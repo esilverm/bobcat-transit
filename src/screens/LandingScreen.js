@@ -1,24 +1,25 @@
 // The landing screen is the first page of the 
 // onboarding sequence of the app
 import React, {useState} from 'react';
-import { StyleSheet, Image, Text, View, TouchableOpacity} from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 // Font Scaling
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 // CSS constant styles
 import SC from '../../styleConstants'
 // Image Imports
+import Logo from "../../assets/img/Hero.svg";
 
-export default function LandingScreen() {
+export default function LandingScreen({navigation}) {
     return (
       <View style={styles.container}>
-        {/* <Image source={{uri:''}} style={{ width: 305, height: 159 }} />  */}
+        <Logo style={styles.logo}/>
         <Text style={styles.welcomeText}>
           Welcome to Bobcat Transit!
         </Text>
-        <TouchableOpacity style={styles.setupButton}>
+        <TouchableOpacity style={styles.setupButton} onPress={() => navigation.navigate('Onboarding')}>
           <Text style={styles.setupText}>Let's Start!</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.skipButton}>
+        <TouchableOpacity style={styles.skipButton} onPress={() => navigation.navigate('Map')}>
           <Text style={styles.skipText}>Skip to Map</Text>
         </TouchableOpacity>
       </View>
@@ -57,5 +58,10 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
     fontSize: RFPercentage(2),
     padding: RFPercentage(2)
+  },
+  logo:{
+    width: '80%',
+    aspectRatio: 1/1,
+    marginBottom: 20
   }
 });

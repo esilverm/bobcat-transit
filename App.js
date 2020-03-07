@@ -10,6 +10,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 // Onboarding Screens
 import LandingScreen from './src/screens/LandingScreen'
+import MapScreen from './src/screens/MapScreen'
+import OnboardingScreen from './src/screens/OnboardingScreen'
 
 
 const Stack = createStackNavigator();
@@ -21,7 +23,13 @@ export default function App() {
     //   <PersistGate loading={null} persistor={persistor}>
       <NavigationContainer>
         <Stack.Navigator headerMode="none">
-          <Stack.Screen name="Home" component={LandingScreen} />
+          {true && (
+            <>
+              <Stack.Screen name="Landing" component={LandingScreen}/>
+              <Stack.Screen name="Onboarding" component={OnboardingScreen}/>
+            </>
+          )}
+          <Stack.Screen name="Map" component={MapScreen} options={{ headerLeft: null, gestureEnabled: false }} />
         </Stack.Navigator>
       </NavigationContainer>
     //   </PersistGate>

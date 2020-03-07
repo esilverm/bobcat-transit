@@ -1,4 +1,7 @@
+import axios from 'axios';
+
 import C from '../constants';
+
 
 export const addCourse = (courseName, courseTime, courseLocation) => ({
   type: C.ADD_COURSE,
@@ -64,5 +67,44 @@ export const fetchCitiBikeStations = () => (dispatch) => {
 }
 
  // fetch citi bike station and dispatch suggestions
+ export const fetchShuttle = async (...shuttleIds) => (dispatch) => {
+   dispatch({
+     type: C.FETCH_SHUTTLE
+   })
+  
+  const https = require('https');
+  
+  const data = JSON.stringify({"s0":"1007","sA":1,"rA":0});
+  const options = {
+    hostname: 'passio3.com',
+    port: 443,
+    path: '/www/mapGetData.php?getBuses=1&deviceId=0',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Content-Length': data.length
+    }
+  }
+  const req = https.request(options, res => {
+    console.log(`statusCode: ${res.statusCode}`);
+    let body = '';
+    res.on('data', d => {
+      body += d;
+    });
+
+    res.on('end', () => {
+      let data = JSON.parse(body);
+      return {
+        type: C.CHANGE_SHUTTLE_LISTING,
+        payload: data
+      }
+    })
+  })
+  req.on('error', error => {
+    dispatch(addError(err));
+  })
+  req.write(data);
+  req.end();
+ }
 
        

@@ -30,7 +30,7 @@
     "ios": {
       "bundleIdentifier": "com.nyubobcats.bobcattransit",
       "config": {
-        "googleMapsApiKey": "AIzaSyCDBcmUBGpxduSHCCZ8PSH9TpsOWhF7rf0"
+        "googleMapsApiKey": "key"
       },
       "supportsTablet": true
     }

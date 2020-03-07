@@ -12,6 +12,7 @@
 ## Accomplishments that we're proud of
 
 ## Built with
+React Native, Redux, Google Maps
 
 ## What's next?
 

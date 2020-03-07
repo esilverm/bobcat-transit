@@ -1,7 +1,7 @@
 // The landing screen is the first page of the 
 // onboarding sequence of the app
 import React, {useState} from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions, ScrollView} from 'react-native';
+import { StyleSheet, StatusBar, Animated, Text, View, TouchableOpacity, Dimensions, ScrollView} from 'react-native';
 // Mapping
 import MapView from 'react-native-maps';
 // Font Scaling
@@ -133,18 +133,19 @@ let mapStyle = [
 export default function MapScreen() {
     return (
         <View style={styles.container}>
-        <MapView
-            style={styles.mapStyle}
-            customMapStyle={mapStyle}
-            provider="google"
-            region={{
-                latitude: 40.76727216,
-                longitude: -73.99392888,
-                latitudeDelta: 0.0922,
-                longitudeDelta: 0.0421
-            }}
-        />
-        <BottomSheet/>
+          <StatusBar barStyle="dark-content" />
+          <MapView
+              style={styles.mapStyle}
+              customMapStyle={mapStyle}
+              provider="google"
+              region={{
+                  latitude: 40.76727216,
+                  longitude: -73.99392888,
+                  latitudeDelta: 0.0922,
+                  longitudeDelta: 0.0421
+              }}
+          />
+          <BottomSheet onSwipeUp={() => alert('Swiped Up!')} onTouch={() => alert("Touched")}/>
         </View>
     );
 }

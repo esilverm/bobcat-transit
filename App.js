@@ -33,14 +33,13 @@ const Stack = createStackNavigator();
 
 export default function App(){
   const [fontsLoaded, setFontsLoaded] = useState(false);
-
+  // console.log(store);
   return (
     <>
-      {/* <Provider store={store}>
-        <PersistGate loading={<AppLoading/>} persistor={persistor}> */}
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
       {
         fontsLoaded ? (
-
           <NavigationContainer>
             <Stack.Navigator headerMode="none">
               {true && (
@@ -61,8 +60,8 @@ export default function App(){
         )
         
       }
-        {/* </PersistGate>
-      </Provider> */}
+        </PersistGate>
+      </Provider>
 
     </>
   );

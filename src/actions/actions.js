@@ -65,7 +65,6 @@ export const fetchShuttle = async (...shuttleIds) => (dispatch) => {
   dispatch({
     type: C.FETCH_SHUTTLE
   })
-
   const data = JSON.stringify({"s0":"1007","sA":1,"rA":0});
   fetch('https://passio3.com/www/mapGetData.php', {
     headers: {
@@ -96,7 +95,7 @@ export const fetchShuttle = async (...shuttleIds) => (dispatch) => {
   dispatch({
     type: C.FETCH_COURSE
   })
-  fetch(`schedge.torchnyu.com/${year}/${semester}/search?query${queryText}&limit=4`)
+  fetch(`schedge.torchnyu.com/${year}/${semester}/search?query${queryText.replace(' ', '+')}&limit=4`)
     .then(res => res.json())
     .then(json => {
       return json.map((course) => {
@@ -125,6 +124,27 @@ export const fetchShuttle = async (...shuttleIds) => (dispatch) => {
     })
   
  }
+ export const fetchCarbonFootprint = (distance, transporation) =>  {
+  //  dispatch fetching action
+  fetch(`api.triptocarbon.xyz/v1/footprint?activity=${distance}/&activityType=miles&country=usa&mode=${transportation}`)
+  .then(res => res.json())
+  .then(json => ({
+    type: C.FETCH_CARBON_FOOTPRINT,
+    payload: carbonFootprint
+  }))
+}
+
+export const fetchDistance = (origin, destination) =>  {
+  //  dispatch fetching action
+  fetch(``)
+  .then(res => res.json())
+  .then(json => ({
+    type: C.FETCH_GOOGLE_DISTANCE,
+    payload: distance
+  }))
+}
+
+
   // fetch course data and dispatch suggestions
 
 /*

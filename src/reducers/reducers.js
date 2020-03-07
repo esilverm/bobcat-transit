@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { persistReducer } from 'redux-persist';
+// import { persistReducer } from 'rexdux-persist';
 import '../actions/actions';
 import C from '../constants';
 
@@ -12,7 +12,7 @@ const initialState = {
       fetching: false,
       courseSuggestions: [],
     }
-  },
+  }
 };
 
 const name = (state=initialState.onboarding.name, action) => 
@@ -84,5 +84,5 @@ export default combineReducers({
       fetching,
       courseSuggestions
     })
-  }),
+  })
 })

@@ -1,38 +1,27 @@
-import { AsyncStorage } from 'react-native';
+// import  AsyncStorage  from 'react-native';
+import createSecureStore from "redux-persist-expo-securestore";
 import { createStore, applyMiddleware } from 'redux';
 import { createLogger } from 'redux-logger';
 import { persistStore, persistReducer } from 'redux-persist'; 
 import rootReducer from '../reducers/reducers';
 import thunk from 'redux-thunk';
 
-
-const loggerMiddleware = createLogger()
+let storage = createSecureStore();
 
 const persistConfig = {
   key: 'root',
-  storage: AsyncStorage,
-  // Reducers to save
-  whitelist: [
-    'onboardingReducer'
-  ],
-  // Reducers to not save
-  blacklist: [
-  ]
+  // timeout: null,
+  storage
 }
 
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-const store = createStore(
+export const store =  createStore(
   persistedReducer,
   applyMiddleware(
-    createLogger(),
-  ),
+    createLogger()
+  )
 );
 
-const persistor = persistStore(store);
-
-export default {
-  store, 
-  persistor
-}
+export const persistor = persistStore(store);

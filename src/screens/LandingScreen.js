@@ -8,7 +8,8 @@ import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 import SC from '../../styleConstants'
 // Image Imports
 import Logo from "../../assets/img/Hero.svg";
-import FadeInView from '../components/FadeInView'
+import Background from "../../assets/img/BottomBar.svg";
+import FadeInView from '../components/FadeInView';
 
 export default function LandingScreen({navigation}) {
     return (
@@ -25,6 +26,7 @@ export default function LandingScreen({navigation}) {
         <TouchableOpacity style={styles.skipButton} onPress={() => navigation.navigate('Map')}>
           <Text style={styles.skipText}>Skip to Map</Text>
         </TouchableOpacity>
+        <Background style={styles.Background}/>
       </View>
     );
 }
@@ -34,7 +36,8 @@ const styles = StyleSheet.create({
     flex: 1, 
     alignItems: 'center', 
     justifyContent: 'center',
-    backgroundColor: SC.PRIMARY
+    backgroundColor: SC.PRIMARY,
+    paddingBottom: RFPercentage(22)
   },
   setupButton:{
     marginTop: 30,
@@ -69,5 +72,12 @@ const styles = StyleSheet.create({
     width: '80%',
     aspectRatio: 1/1,
     marginBottom: 20
+  },
+  Background:{
+    position: 'absolute',
+    width: '100%',
+    bottom: 0,
+    left: 0,
+    aspectRatio: 100/49
   }
 });

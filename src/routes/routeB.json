@@ -1,0 +1,890 @@
+{
+    "Mon-Thurs": [
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "7:35 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "7:38 a1/p1",
+            "Layfayette & E 4th St.": "7:42 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:00 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:03 a1/p1",
+            "Layfayette & E 4th St.": "8:07 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:20 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:23 a1/p1",
+            "Layfayette & E 4th St.": "8:27 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:28 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:31 a1/p1",
+            "Layfayette & E 4th St.": "8:35 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:43 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:46 a1/p1",
+            "Layfayette & E 4th St.": "8:50 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:50 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:53 a1/p1",
+            "Layfayette & E 4th St.": "8:57 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:00 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:03 a1/p1",
+            "Layfayette & E 4th St.": "9:07 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:08 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:11 a1/p1",
+            "Layfayette & E 4th St.": "9:15 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:14 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:17 a1/p1",
+            "Layfayette & E 4th St.": "9:21 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:25 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:28 a1/p1",
+            "Layfayette & E 4th St.": "9:32 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:33 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:36 a1/p1",
+            "Layfayette & E 4th St.": "9:40 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:50 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:53 a1/p1",
+            "Layfayette & E 4th St.": "9:57 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "10:00 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:03 a1/p1",
+            "Layfayette & E 4th St.": "10:07 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "10:20 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:23 a1/p1",
+            "Layfayette & E 4th St.": "10:27 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "10:30 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:33 a1/p1",
+            "Layfayette & E 4th St.": "10:37 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "10:40 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:43 a1/p1",
+            "Layfayette & E 4th St.": "10:47 a1/p1",
+            "715 Broadway Arrival": "-"
+        },
+        {
+            "715 Broadway": "10:50 a1/p1",
+            "Broadway & Broome St.": "10:55 a1/p1",
+            "Canal & Lafayette St.": "10:59 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "11:02 a1/p1",
+            "Layfayette & E 4th St.": "11:06 a1/p1",
+            "715 Broadway Arrival": "11:08 a1/p1"
+        },
+        {
+            "715 Broadway": "11:10 a1/p1",
+            "Broadway & Broome St.": "11:15 a1/p1",
+            "Canal & Lafayette St.": "11:19 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "11:22 a1/p1",
+            "Layfayette & E 4th St.": "11:26 a1/p1",
+            "715 Broadway Arrival": "11:28 a1/p1"
+        },
+        {
+            "715 Broadway": "11:30 a1/p1",
+            "Broadway & Broome St.": "11:35 a1/p1",
+            "Canal & Lafayette St.": "11:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "11:42 a1/p1",
+            "Layfayette & E 4th St.": "11:46 a1/p1",
+            "715 Broadway Arrival": "11:48 a1/p1"
+        },
+        {
+            "715 Broadway": "11:50 a1/p1",
+            "Broadway & Broome St.": "11:55 a1/p1",
+            "Canal & Lafayette St.": "11:59 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "12:02 a1/p1",
+            "Layfayette & E 4th St.": "12:06 a1/p1",
+            "715 Broadway Arrival": "12:08 a1/p1"
+        },
+        {
+            "715 Broadway": "12:10 a1/p1",
+            "Broadway & Broome St.": "12:15 a1/p1",
+            "Canal & Lafayette St.": "12:19 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "12:22 a1/p1",
+            "Layfayette & E 4th St.": "12:26 a1/p1",
+            "715 Broadway Arrival": "12:28 a1/p1"
+        },
+        {
+            "715 Broadway": "12:30 a1/p1",
+            "Broadway & Broome St.": "12:35 a1/p1",
+            "Canal & Lafayette St.": "12:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "12:42 a1/p1",
+            "Layfayette & E 4th St.": "12:46 a1/p1",
+            "715 Broadway Arrival": "12:48 a1/p1"
+        },
+        {
+            "715 Broadway": "12:50 a1/p1",
+            "Broadway & Broome St.": "12:55 a1/p1",
+            "Canal & Lafayette St.": "12:59 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "13:02 a1/p1",
+            "Layfayette & E 4th St.": "13:06 a1/p1",
+            "715 Broadway Arrival": "13:08 a1/p1"
+        },
+        {
+            "715 Broadway": "13:30 a1/p1",
+            "Broadway & Broome St.": "13:35 a1/p1",
+            "Canal & Lafayette St.": "13:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "13:42 a1/p1",
+            "Layfayette & E 4th St.": "13:46 a1/p1",
+            "715 Broadway Arrival": "13:48 a1/p1"
+        },
+        {
+            "715 Broadway": "13:55 a1/p1",
+            "Broadway & Broome St.": "14:00 a1/p1",
+            "Canal & Lafayette St.": "14:04 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "14:07 a1/p1",
+            "Layfayette & E 4th St.": "14:11 a1/p1",
+            "715 Broadway Arrival": "14:13 a1/p1"
+        },
+        {
+            "715 Broadway": "14:25 a1/p1",
+            "Broadway & Broome St.": "14:30 a1/p1",
+            "Canal & Lafayette St.": "14:34 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "14:37 a1/p1",
+            "Layfayette & E 4th St.": "14:41 a1/p1",
+            "715 Broadway Arrival": "14:43 a1/p1"
+        },
+        {
+            "715 Broadway": "14:35 a1/p1",
+            "Broadway & Broome St.": "14:40 a1/p1",
+            "Canal & Lafayette St.": "14:44 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "14:47 a1/p1",
+            "Layfayette & E 4th St.": "14:51 a1/p1",
+            "715 Broadway Arrival": "14:53 a1/p1"
+        },
+        {
+            "715 Broadway": "15:25 a1/p1",
+            "Broadway & Broome St.": "15:30 a1/p1",
+            "Canal & Lafayette St.": "15:34 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "15:37 a1/p1",
+            "Layfayette & E 4th St.": "15:41 a1/p1",
+            "715 Broadway Arrival": "15:43 a1/p1"
+        },
+        {
+            "715 Broadway": "15:35 a1/p1",
+            "Broadway & Broome St.": "15:40 a1/p1",
+            "Canal & Lafayette St.": "15:44 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "15:47 a1/p1",
+            "Layfayette & E 4th St.": "15:51 a1/p1",
+            "715 Broadway Arrival": "15:53 a1/p1"
+        },
+        {
+            "715 Broadway": "16:00 a1/p1",
+            "Broadway & Broome St.": "16:05 a1/p1",
+            "Canal & Lafayette St.": "16:09 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "16:12 a1/p1",
+            "Layfayette & E 4th St.": "16:16 a1/p1",
+            "715 Broadway Arrival": "16:18 a1/p1"
+        },
+        {
+            "715 Broadway": "16:35 a1/p1",
+            "Broadway & Broome St.": "16:40 a1/p1",
+            "Canal & Lafayette St.": "16:44 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "16:47 a1/p1",
+            "Layfayette & E 4th St.": "16:51 a1/p1",
+            "715 Broadway Arrival": "16:53 a1/p1"
+        },
+        {
+            "715 Broadway": "16:55 a1/p1",
+            "Broadway & Broome St.": "17:00 a1/p1",
+            "Canal & Lafayette St.": "17:04 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "17:07 a1/p1",
+            "Layfayette & E 4th St.": "17:11 a1/p1",
+            "715 Broadway Arrival": "17:13 a1/p1"
+        },
+        {
+            "715 Broadway": "17:15 a1/p1",
+            "Broadway & Broome St.": "17:20 a1/p1",
+            "Canal & Lafayette St.": "17:24 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "17:27 a1/p1",
+            "Layfayette & E 4th St.": "17:31 a1/p1",
+            "715 Broadway Arrival": "17:33 a1/p1"
+        },
+        {
+            "715 Broadway": "17:30 a1/p1",
+            "Broadway & Broome St.": "17:35 a1/p1",
+            "Canal & Lafayette St.": "17:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "17:42 a1/p1",
+            "Layfayette & E 4th St.": "17:46 a1/p1",
+            "715 Broadway Arrival": "17:48 a1/p1"
+        },
+        {
+            "715 Broadway": "18:20 a1/p1",
+            "Broadway & Broome St.": "18:25 a1/p1",
+            "Canal & Lafayette St.": "18:29 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "18:32 a1/p1",
+            "Layfayette & E 4th St.": "18:36 a1/p1",
+            "715 Broadway Arrival": "18:38 a1/p1"
+        },
+        {
+            "715 Broadway": "18:45 a1/p1",
+            "Broadway & Broome St.": "18:50 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "18:57 a1/p1",
+            "Cleveland Pl & Spring St.": "19:03 a1/p1",
+            "Layfayette & E 4th St.": "19:07 a1/p1",
+            "715 Broadway Arrival": "19:09 a1/p1"
+        },
+        {
+            "715 Broadway": "19:20 a1/p1",
+            "Broadway & Broome St.": "19:25 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "19:32 a1/p1",
+            "Cleveland Pl & Spring St.": "19:38 a1/p1",
+            "Layfayette & E 4th St.": "19:42 a1/p1",
+            "715 Broadway Arrival": "19:44 a1/p1"
+        },
+        {
+            "715 Broadway": "19:45 a1/p1",
+            "Broadway & Broome St.": "19:50 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "19:57 a1/p1",
+            "Cleveland Pl & Spring St.": "20:03 a1/p1",
+            "Layfayette & E 4th St.": "20:07 a1/p1",
+            "715 Broadway Arrival": "20:09 a1/p1"
+        },
+        {
+            "715 Broadway": "20:05 a1/p1",
+            "Broadway & Broome St.": "20:10 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "20:17 a1/p1",
+            "Cleveland Pl & Spring St.": "20:23 a1/p1",
+            "Layfayette & E 4th St.": "20:27 a1/p1",
+            "715 Broadway Arrival": "20:29 a1/p1"
+        },
+        {
+            "715 Broadway": "20:15 a1/p1",
+            "Broadway & Broome St.": "20:20 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "20:27 a1/p1",
+            "Cleveland Pl & Spring St.": "20:33 a1/p1",
+            "Layfayette & E 4th St.": "20:37 a1/p1",
+            "715 Broadway Arrival": "20:39 a1/p1"
+        },
+        {
+            "715 Broadway": "20:35 a1/p1",
+            "Broadway & Broome St.": "20:40 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "20:47 a1/p1",
+            "Cleveland Pl & Spring St.": "20:53 a1/p1",
+            "Layfayette & E 4th St.": "20:57 a1/p1",
+            "715 Broadway Arrival": "20:59 a1/p1"
+        },
+        {
+            "715 Broadway": "21:00 a1/p1",
+            "Broadway & Broome St.": "21:05 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "21:12 a1/p1",
+            "Cleveland Pl & Spring St.": "-",
+            "Layfayette & E 4th St.": "-",
+            "715 Broadway Arrival": "21:35 a1/p1"
+        },
+        {
+            "715 Broadway": "21:15 a1/p1",
+            "Broadway & Broome St.": "21:20 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "21:27 a1/p1",
+            "Cleveland Pl & Spring St.": "21:33 a1/p1",
+            "Layfayette & E 4th St.": "21:37 a1/p1",
+            "715 Broadway Arrival": "21:39 a1/p1"
+        },
+        {
+            "715 Broadway": "21:40 a1/p1",
+            "Broadway & Broome St.": "21:45 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "21:52 a1/p1",
+            "Cleveland Pl & Spring St.": "21:58 a1/p1",
+            "Layfayette & E 4th St.": "22:02 a1/p1",
+            "715 Broadway Arrival": "22:04 a1/p1"
+        },
+        {
+            "715 Broadway": "22:00 a1/p1",
+            "Broadway & Broome St.": "22:05 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "22:12 a1/p1",
+            "Cleveland Pl & Spring St.": "22:18 a1/p1",
+            "Layfayette & E 4th St.": "22:22 a1/p1",
+            "715 Broadway Arrival": "22:24 a1/p1"
+        },
+        {
+            "715 Broadway": "22:15 a1/p1",
+            "Broadway & Broome St.": "22:20 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "22:27 a1/p1",
+            "Cleveland Pl & Spring St.": "-",
+            "Layfayette & E 4th St.": "-",
+            "715 Broadway Arrival": "10:52 a1/p1"
+        },
+        {
+            "715 Broadway": "22:40 a1/p1",
+            "Broadway & Broome St.": "22:45 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "22:52 a1/p1",
+            "Cleveland Pl & Spring St.": "22:58 a1/p1",
+            "Layfayette & E 4th St.": "23:02 a1/p1",
+            "715 Broadway Arrival": "23:04 a1/p1"
+        },
+        {
+            "715 Broadway": "23:20 a1/p1",
+            "Broadway & Broome St.": "23:25 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "23:32 a1/p1",
+            "Cleveland Pl & Spring St.": "23:38 a1/p1",
+            "Layfayette & E 4th St.": "23:42 a1/p1",
+            "715 Broadway Arrival": "-"
+        }
+    ],
+    "Fri": [
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "7:35 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "7:38 a1/p1",
+            "Lafayette & E 4th St.": "7:42 a1/p1",
+            "715 Broadway Arrival": "7:44 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:05 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:08 a1/p1",
+            "Lafayette & E 4th St.": "8:12 a1/p1",
+            "715 Broadway Arrival": "8:14 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:35 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:38 a1/p1",
+            "Lafayette & E 4th St.": "8:42 a1/p1",
+            "715 Broadway Arrival": "8:44 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:05 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:08 a1/p1",
+            "Lafayette & E 4th St.": "9:12 a1/p1",
+            "715 Broadway Arrival": "9:14 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:35 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:38 a1/p1",
+            "Lafayette & E 4th St.": "9:42 a1/p1",
+            "715 Broadway Arrival": "9:44 a1/p1"
+        },
+        {
+            "715 Broadway": "10:00 a1/p1",
+            "Broadway & Broome St.": "10:05 a1/p1",
+            "Canal & Lafayette St.": "10:09 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:12 a1/p1",
+            "Lafayette & E 4th St.": "10:16 a1/p1",
+            "715 Broadway Arrival": "10:18 a1/p1"
+        },
+        {
+            "715 Broadway": "10:30 a1/p1",
+            "Broadway & Broome St.": "10:35 a1/p1",
+            "Canal & Lafayette St.": "10:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:42 a1/p1",
+            "Lafayette & E 4th St.": "10:46 a1/p1",
+            "715 Broadway Arrival": "10:48 a1/p1"
+        },
+        {
+            "715 Broadway": "11:00 a1/p1",
+            "Broadway & Broome St.": "11:05 a1/p1",
+            "Canal & Lafayette St.": "11:09 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "11:12 a1/p1",
+            "Lafayette & E 4th St.": "11:16 a1/p1",
+            "715 Broadway Arrival": "11:18 a1/p1"
+        },
+        {
+            "715 Broadway": "11:30 a1/p1",
+            "Broadway & Broome St.": "11:35 a1/p1",
+            "Canal & Lafayette St.": "11:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "11:42 a1/p1",
+            "Lafayette & E 4th St.": "11:46 a1/p1",
+            "715 Broadway Arrival": "11:48 a1/p1"
+        },
+        {
+            "715 Broadway": "12:00 a1/p1",
+            "Broadway & Broome St.": "12:05 a1/p1",
+            "Canal & Lafayette St.": "12:09 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "12:12 a1/p1",
+            "Lafayette & E 4th St.": "12:16 a1/p1",
+            "715 Broadway Arrival": "12:18 a1/p1"
+        },
+        {
+            "715 Broadway": "12:30 a1/p1",
+            "Broadway & Broome St.": "12:35 a1/p1",
+            "Canal & Lafayette St.": "12:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "12:42 a1/p1",
+            "Lafayette & E 4th St.": "12:46 a1/p1",
+            "715 Broadway Arrival": "12:48 a1/p1"
+        },
+        {
+            "715 Broadway": "13:55 a1/p1",
+            "Broadway & Broome St.": "14:00 a1/p1",
+            "Canal & Lafayette St.": "14:04 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "14:07 a1/p1",
+            "Lafayette & E 4th St.": "14:11 a1/p1",
+            "715 Broadway Arrival": "14:13 a1/p1"
+        },
+        {
+            "715 Broadway": "14:25 a1/p1",
+            "Broadway & Broome St.": "14:30 a1/p1",
+            "Canal & Lafayette St.": "14:34 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "14:37 a1/p1",
+            "Lafayette & E 4th St.": "14:41 a1/p1",
+            "715 Broadway Arrival": "14:43 a1/p1"
+        },
+        {
+            "715 Broadway": "15:30 a1/p1",
+            "Broadway & Broome St.": "15:35 a1/p1",
+            "Canal & Lafayette St.": "15:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "15:42 a1/p1",
+            "Lafayette & E 4th St.": "15:46 a1/p1",
+            "715 Broadway Arrival": "15:48 a1/p1"
+        },
+        {
+            "715 Broadway": "16:10 a1/p1",
+            "Broadway & Broome St.": "16:15 a1/p1",
+            "Canal & Lafayette St.": "16:19 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "16:22 a1/p1",
+            "Lafayette & E 4th St.": "16:26 a1/p1",
+            "715 Broadway Arrival": "16:28 a1/p1"
+        },
+        {
+            "715 Broadway": "16:55 a1/p1",
+            "Broadway & Broome St.": "17:00 a1/p1",
+            "Canal & Lafayette St.": "17:04 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "17:07 a1/p1",
+            "Lafayette & E 4th St.": "17:11 a1/p1",
+            "715 Broadway Arrival": "17:13 a1/p1"
+        },
+        {
+            "715 Broadway": "18:10 a1/p1",
+            "Broadway & Broome St.": "18:15 a1/p1",
+            "Canal & Lafayette St.": "18:19 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "18:22 a1/p1",
+            "Lafayette & E 4th St.": "18:26 a1/p1",
+            "715 Broadway Arrival": "18:28 a1/p1"
+        },
+        {
+            "715 Broadway": "18:50 a1/p1",
+            "Broadway & Broome St.": "18:55 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "19:02 a1/p1",
+            "Cleveland Pl & Spring St.": "19:08 a1/p1",
+            "Lafayette & E 4th St.": "19:12 a1/p1",
+            "715 Broadway Arrival": "19:14 a1/p1"
+        },
+        {
+            "715 Broadway": "19:25 a1/p1",
+            "Broadway & Broome St.": "19:30 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "19:37 a1/p1",
+            "Cleveland Pl & Spring St.": "19:43 a1/p1",
+            "Lafayette & E 4th St.": "19:47 a1/p1",
+            "715 Broadway Arrival": "19:49 a1/p1"
+        },
+        {
+            "715 Broadway": "19:55 a1/p1",
+            "Broadway & Broome St.": "20:00 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "20:07 a1/p1",
+            "Cleveland Pl & Spring St.": "20:13 a1/p1",
+            "Lafayette & E 4th St.": "20:17 a1/p1",
+            "715 Broadway Arrival": "20:19 a1/p1"
+        },
+        {
+            "715 Broadway": "20:30 a1/p1",
+            "Broadway & Broome St.": "20:35 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "20:45 a1/p1",
+            "Cleveland Pl & Spring St.": "-",
+            "Lafayette & E 4th St.": "-",
+            "715 Broadway Arrival": "21:15 a1/p1"
+        },
+        {
+            "715 Broadway": "21:20 a1/p1",
+            "Broadway & Broome St.": "21:25 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "21:32 a1/p1",
+            "Cleveland Pl & Spring St.": "21:38 a1/p1",
+            "Lafayette & E 4th St.": "21:42 a1/p1",
+            "715 Broadway Arrival": "21:44 a1/p1"
+        },
+        {
+            "715 Broadway": "22:00 a1/p1",
+            "Broadway & Broome St.": "22:05 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "22:12 a1/p1",
+            "Cleveland Pl & Spring St.": "22:18 a1/p1",
+            "Lafayette & E 4th St.": "22:22 a1/p1",
+            "715 Broadway Arrival": "22:24 a1/p1"
+        },
+        {
+            "715 Broadway": "22:40 a1/p1",
+            "Broadway & Broome St.": "22:45 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "22:52 a1/p1",
+            "Cleveland Pl & Spring St.": "22:58 a1/p1",
+            "Lafayette & E 4th St.": "23:02 a1/p1",
+            "715 Broadway Arrival": "23:04 a1/p1"
+        },
+        {
+            "715 Broadway": "23:20 a1/p1",
+            "Broadway & Broome St.": "23:25 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "23:32 a1/p1",
+            "Cleveland Pl & Spring St.": "23:38 a1/p1",
+            "Lafayette & E 4th St.": "23:42 a1/p1",
+            "715 Broadway Arrival": "23:44 a1/p1"
+        }
+    ],
+    "Welcome Week 2019": [
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "7:35 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "7:38 a1/p1",
+            "Lafayette & E 4th St.": "7:42 a1/p1",
+            "715 Broadway Arrival": "7:44 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:05 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:08 a1/p1",
+            "Lafayette & E 4th St.": "8:12 a1/p1",
+            "715 Broadway Arrival": "8:14 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "8:35 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "8:38 a1/p1",
+            "Lafayette & E 4th St.": "8:42 a1/p1",
+            "715 Broadway Arrival": "8:44 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:05 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:08 a1/p1",
+            "Lafayette & E 4th St.": "9:12 a1/p1",
+            "715 Broadway Arrival": "9:14 a1/p1"
+        },
+        {
+            "715 Broadway": "-",
+            "Broadway & Broome St.": "-",
+            "Canal & Lafayette St.": "9:35 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "9:38 a1/p1",
+            "Lafayette & E 4th St.": "9:42 a1/p1",
+            "715 Broadway Arrival": "9:44 a1/p1"
+        },
+        {
+            "715 Broadway": "10:00 a1/p1",
+            "Broadway & Broome St.": "10:05 a1/p1",
+            "Canal & Lafayette St.": "10:09 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:12 a1/p1",
+            "Lafayette & E 4th St.": "10:16 a1/p1",
+            "715 Broadway Arrival": "10:18 a1/p1"
+        },
+        {
+            "715 Broadway": "10:30 a1/p1",
+            "Broadway & Broome St.": "10:35 a1/p1",
+            "Canal & Lafayette St.": "10:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "10:42 a1/p1",
+            "Lafayette & E 4th St.": "10:46 a1/p1",
+            "715 Broadway Arrival": "10:48 a1/p1"
+        },
+        {
+            "715 Broadway": "11:00 a1/p1",
+            "Broadway & Broome St.": "11:05 a1/p1",
+            "Canal & Lafayette St.": "11:09 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "11:12 a1/p1",
+            "Lafayette & E 4th St.": "11:16 a1/p1",
+            "715 Broadway Arrival": "11:18 a1/p1"
+        },
+        {
+            "715 Broadway": "11:30 a1/p1",
+            "Broadway & Broome St.": "11:35 a1/p1",
+            "Canal & Lafayette St.": "11:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "11:42 a1/p1",
+            "Lafayette & E 4th St.": "11:46 a1/p1",
+            "715 Broadway Arrival": "11:48 a1/p1"
+        },
+        {
+            "715 Broadway": "12:00 a1/p1",
+            "Broadway & Broome St.": "12:05 a1/p1",
+            "Canal & Lafayette St.": "12:09 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "12:12 a1/p1",
+            "Lafayette & E 4th St.": "12:16 a1/p1",
+            "715 Broadway Arrival": "12:18 a1/p1"
+        },
+        {
+            "715 Broadway": "12:30 a1/p1",
+            "Broadway & Broome St.": "12:35 a1/p1",
+            "Canal & Lafayette St.": "12:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "12:42 a1/p1",
+            "Lafayette & E 4th St.": "12:46 a1/p1",
+            "715 Broadway Arrival": "12:48 a1/p1"
+        },
+        {
+            "715 Broadway": "13:55 a1/p1",
+            "Broadway & Broome St.": "14:00 a1/p1",
+            "Canal & Lafayette St.": "14:04 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "14:07 a1/p1",
+            "Lafayette & E 4th St.": "14:11 a1/p1",
+            "715 Broadway Arrival": "14:13 a1/p1"
+        },
+        {
+            "715 Broadway": "14:25 a1/p1",
+            "Broadway & Broome St.": "14:30 a1/p1",
+            "Canal & Lafayette St.": "14:34 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "14:37 a1/p1",
+            "Lafayette & E 4th St.": "14:41 a1/p1",
+            "715 Broadway Arrival": "14:43 a1/p1"
+        },
+        {
+            "715 Broadway": "15:30 a1/p1",
+            "Broadway & Broome St.": "15:35 a1/p1",
+            "Canal & Lafayette St.": "15:39 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "15:42 a1/p1",
+            "Lafayette & E 4th St.": "15:46 a1/p1",
+            "715 Broadway Arrival": "15:48 a1/p1"
+        },
+        {
+            "715 Broadway": "16:10 a1/p1",
+            "Broadway & Broome St.": "16:15 a1/p1",
+            "Canal & Lafayette St.": "16:19 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "16:22 a1/p1",
+            "Lafayette & E 4th St.": "16:26 a1/p1",
+            "715 Broadway Arrival": "16:28 a1/p1"
+        },
+        {
+            "715 Broadway": "16:55 a1/p1",
+            "Broadway & Broome St.": "17:00 a1/p1",
+            "Canal & Lafayette St.": "17:04 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "17:07 a1/p1",
+            "Lafayette & E 4th St.": "17:11 a1/p1",
+            "715 Broadway Arrival": "17:13 a1/p1"
+        },
+        {
+            "715 Broadway": "18:10 a1/p1",
+            "Broadway & Broome St.": "18:15 a1/p1",
+            "Canal & Lafayette St.": "18:19 a1/p1",
+            "80 Lafayette": "-",
+            "Cleveland Pl & Spring St.": "18:22 a1/p1",
+            "Lafayette & E 4th St.": "18:26 a1/p1",
+            "715 Broadway Arrival": "18:28 a1/p1"
+        },
+        {
+            "715 Broadway": "18:50 a1/p1",
+            "Broadway & Broome St.": "18:55 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "19:02 a1/p1",
+            "Cleveland Pl & Spring St.": "19:08 a1/p1",
+            "Lafayette & E 4th St.": "19:12 a1/p1",
+            "715 Broadway Arrival": "19:14 a1/p1"
+        },
+        {
+            "715 Broadway": "19:25 a1/p1",
+            "Broadway & Broome St.": "19:30 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "19:37 a1/p1",
+            "Cleveland Pl & Spring St.": "19:43 a1/p1",
+            "Lafayette & E 4th St.": "19:47 a1/p1",
+            "715 Broadway Arrival": "19:49 a1/p1"
+        },
+        {
+            "715 Broadway": "19:55 a1/p1",
+            "Broadway & Broome St.": "20:00 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "20:07 a1/p1",
+            "Cleveland Pl & Spring St.": "20:13 a1/p1",
+            "Lafayette & E 4th St.": "20:17 a1/p1",
+            "715 Broadway Arrival": "20:19 a1/p1"
+        },
+        {
+            "715 Broadway": "20:30 a1/p1",
+            "Broadway & Broome St.": "20:35 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "20:45 a1/p1",
+            "Cleveland Pl & Spring St.": "-",
+            "Lafayette & E 4th St.": "-",
+            "715 Broadway Arrival": "21:15 a1/p1"
+        },
+        {
+            "715 Broadway": "21:20 a1/p1",
+            "Broadway & Broome St.": "21:25 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "21:32 a1/p1",
+            "Cleveland Pl & Spring St.": "21:38 a1/p1",
+            "Lafayette & E 4th St.": "21:42 a1/p1",
+            "715 Broadway Arrival": "21:44 a1/p1"
+        },
+        {
+            "715 Broadway": "22:00 a1/p1",
+            "Broadway & Broome St.": "22:05 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "22:12 a1/p1",
+            "Cleveland Pl & Spring St.": "22:18 a1/p1",
+            "Lafayette & E 4th St.": "22:22 a1/p1",
+            "715 Broadway Arrival": "22:24 a1/p1"
+        },
+        {
+            "715 Broadway": "22:40 a1/p1",
+            "Broadway & Broome St.": "22:45 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "22:52 a1/p1",
+            "Cleveland Pl & Spring St.": "22:58 a1/p1",
+            "Lafayette & E 4th St.": "23:02 a1/p1",
+            "715 Broadway Arrival": "23:04 a1/p1"
+        },
+        {
+            "715 Broadway": "23:20 a1/p1",
+            "Broadway & Broome St.": "23:25 a1/p1",
+            "Canal & Lafayette St.": "-",
+            "80 Lafayette": "23:32 a1/p1",
+            "Cleveland Pl & Spring St.": "23:38 a1/p1",
+            "Lafayette & E 4th St.": "23:42 a1/p1",
+            "715 Broadway Arrival": "23:44 a1/p1"
+        }
+    ]
+}

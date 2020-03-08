@@ -1,0 +1,70 @@
+{
+    "Mon-Thurs": [
+        {
+            "20th St & Loop Exit": "7:30 a1/p1",
+            "Ave C & 18th St.": "7:32 a1/p1",
+            "Ave. C & 16th St.": "7:33 a1/p1",
+            "Ave. C & 14th St.": "7:34 a1/p1",
+            "14th St. & Ave. B": "7:35 a1/p1",
+            "14th St. & Ave. A": "7:37 a1/p1",
+            "14th St. & 1st Ave.": "7:40 a1/p1",
+            "3rd Ave. & 13th St.": "7:43 a1/p1",
+            "715 Broadway Arrival": "7:47 a1/p1"
+        },
+        {
+            "20th St & Loop Exit": "8:00 a1/p1",
+            "Ave C & 18th St.": "8:02 a1/p1",
+            "Ave. C & 16th St.": "8:03 a1/p1",
+            "Ave. C & 14th St.": "8:04 a1/p1",
+            "14th St. & Ave. B": "8:05 a1/p1",
+            "14th St. & Ave. A": "8:07 a1/p1",
+            "14th St. & 1st Ave.": "8:10 a1/p1",
+            "3rd Ave. & 13th St.": "8:13 a1/p1",
+            "715 Broadway Arrival": "8:17 a1/p1"
+        },
+        {
+            "20th St & Loop Exit": "8:30 a1/p1",
+            "Ave C & 18th St.": "8:32 a1/p1",
+            "Ave. C & 16th St.": "8:33 a1/p1",
+            "Ave. C & 14th St.": "8:34 a1/p1",
+            "14th St. & Ave. B": "8:35 a1/p1",
+            "14th St. & Ave. A": "8:37 a1/p1",
+            "14th St. & 1st Ave.": "8:40 a1/p1",
+            "3rd Ave. & 13th St.": "8:43 a1/p1",
+            "715 Broadway Arrival": "8:47 a1/p1"
+        },
+        {
+            "20th St & Loop Exit": "9:00 a1/p1",
+            "Ave C & 18th St.": "9:02 a1/p1",
+            "Ave. C & 16th St.": "9:03 a1/p1",
+            "Ave. C & 14th St.": "9:04 a1/p1",
+            "14th St. & Ave. B": "9:05 a1/p1",
+            "14th St. & Ave. A": "9:07 a1/p1",
+            "14th St. & 1st Ave.": "9:10 a1/p1",
+            "3rd Ave. & 13th St.": "9:13 a1/p1",
+            "715 Broadway Arrival": "9:17 a1/p1"
+        },
+        {
+            "20th St & Loop Exit": "9:50 a1/p1",
+            "Ave C & 18th St.": "9:52 a1/p1",
+            "Ave. C & 16th St.": "9:53 a1/p1",
+            "Ave. C & 14th St.": "9:54 a1/p1",
+            "14th St. & Ave. B": "9:55 a1/p1",
+            "14th St. & Ave. A": "9:57 a1/p1",
+            "14th St. & 1st Ave.": "10:00 a1/p1",
+            "3rd Ave. & 13th St.": "10:03 a1/p1",
+            "715 Broadway Arrival": "10:07 a1/p1"
+        },
+        {
+            "20th St & Loop Exit": "10:30 a1/p1",
+            "Ave C & 18th St.": "10:32 a1/p1",
+            "Ave. C & 16th St.": "10:33 a1/p1",
+            "Ave. C & 14th St.": "10:34 a1/p1",
+            "14th St. & Ave. B": "10:35 a1/p1",
+            "14th St. & Ave. A": "10:37 a1/p1",
+            "14th St. & 1st Ave.": "10:40 a1/p1",
+            "3rd Ave. & 13th St.": "10:43 a1/p1",
+            "715 Broadway Arrival": "10:47 a1/p1"
+        }
+    ]
+}

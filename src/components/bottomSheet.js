@@ -11,6 +11,7 @@ import { PanGestureHandler, State } from 'react-native-gesture-handler';
 // Components
 import NavigationBar from './navigationBar'
 import NavigateToCourse from './NavigateToCourse'
+import NearestStops from './NearestStops'
 
 
 const DRAWER_MIN_BOTTOM = -0.7 * Math.round(Dimensions.get('window').height);
@@ -39,7 +40,9 @@ export default class BottomSheet extends Component{
         <Animated.View 
           style={[styles.container, {bottom: this._drawerBottom}]}>
               <NavigationBar/>
-              <NavigateToCourse/>
+              <NavigateToCourse fetchData={this.props.fetchData} stops={this.props.stops} origin={{ latitude: this.props.latitude, longitude: this.props.longitude }} course={this.props.course} destination={this.props.course.location}/>
+              <NearestStops stops={this.props.stops}  latitude={this.props.latitude} longitude={this.props.longitude}/>
+              <Text>{this.props.latitude}, {this.props.longitude}</Text>
         </Animated.View>
       </PanGestureHandler>
     )

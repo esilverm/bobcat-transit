@@ -1,0 +1,56 @@
+{
+    "Sat": [
+        {
+            "715 Broadway": "11:30",
+            "Morton & Greenwich": "11:45",
+            "717 Broadway": "12:00"
+        },
+        {
+            "715 Broadway": "13:10",
+            "Morton & Greenwich": "13:25",
+            "717 Broadway": "13:40"
+        },
+        {
+            "715 Broadway": "14:50",
+            "Morton & Greenwich": "15:05",
+            "717 Broadway": "15:20"
+        },
+        {
+            "715 Broadway": "16:30",
+            "Morton & Greenwich": "16:45",
+            "717 Broadway": "17:00"
+        },
+        {
+            "715 Broadway": "18:10",
+            "Morton & Greenwich": "18:25",
+            "717 Broadway": "18:40"
+        }
+    ],
+    "Sun": [
+        {
+            "715 Broadway": "11:30",
+            "Morton & Greenwich": "11:45",
+            "717 Broadway": "12:00"
+        },
+        {
+            "715 Broadway": "13:10",
+            "Morton & Greenwich": "13:25",
+            "717 Broadway": "13:40"
+        },
+        {
+            "715 Broadway": "14:50",
+            "Morton & Greenwich": "15:05",
+            "717 Broadway": "15:20"
+        },
+        {
+            "715 Broadway": "16:30",
+            "Morton & Greenwich": "16:45",
+            "717 Broadway": "17:00"
+        },
+        {
+            "715 Broadway": "18:10",
+            "Morton & Greenwich": "18:25",
+            "717 Broadway": "18:40"
+        }
+    ]
+}

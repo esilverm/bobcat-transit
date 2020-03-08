@@ -18,6 +18,9 @@ import OnboardingScreen from './src/screens/OnboardingScreen'
 import { store, persistor } from './src/store/store'
 
 const getFonts = () => Font.loadAsync({
+  'fira-sans-extra-condensed-black':require('./assets/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Black.ttf'),
+  'fira-sans-extra-condensed-bold':require('./assets/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Bold.ttf'),
+  'fira-sans-extra-condensed-semi-bold':require('./assets/fonts/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-SemiBold.ttf'),
   'fira-sans-condensed-medium-italic': require('./assets/fonts/Fira_Sans_Condensed/FiraSansCondensed-MediumItalic.ttf'),
   'fira-sans-condensed-semi-bold': require('./assets/fonts/Fira_Sans_Condensed/FiraSansCondensed-SemiBold.ttf'),
   'fira-sans': require('./assets/fonts/Fira_Sans/FiraSans-Medium.ttf'),
@@ -62,7 +65,6 @@ export default function App(){
       }
         </PersistGate>
       </Provider>
-
     </>
   );
 }

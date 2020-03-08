@@ -1,5 +1,6 @@
 import fetch from 'cross-fetch';
 import C from '../constants';
+import key from '../../app.json';
 
 export const setName = name => 
   ({
@@ -19,9 +20,9 @@ export const setUserAddress = address =>
     payload: address
   })
 
-export const addCourse = (courseId, courseName, courseTimes=[], courseLocation=null) => ({
+export const addCourse = (courseName, courseTimes='', courseLocation='') => ({
   type: C.ADD_COURSE,
-  payload: { courseId, courseName, courseTimes, courseLocation }
+  payload: { courseName, courseTimes, courseLocation }
 })
 
 export const removeCourse = (courseId) => ({
@@ -61,12 +62,12 @@ export const fetchShuttleDirections = (origin, destination) => (dispatch) => {
   // const data = JSON.stringify
 }
 
-export const fetchShuttle = async (...shuttleIds) => (dispatch) => {
+export const fetchShuttle = async () => (dispatch) => {
   dispatch({
     type: C.FETCH_SHUTTLE
   })
   const data = JSON.stringify({"s0":"1007","sA":1,"rA":0});
-  fetch('https://passio3.com/www/mapGetData.php', {
+  fetch('https://passio3.com/www/mapGetData.php?getBuses=1&deviceId=0', {
     headers: {
       'Content-Type': 'application/json',
       'Content-Length': data.length
@@ -124,19 +125,19 @@ export const fetchShuttle = async (...shuttleIds) => (dispatch) => {
     })
   
  }
- export const fetchCarbonFootprint = (distance, transporation) =>  {
-  //  dispatch fetching action
-  fetch(`api.triptocarbon.xyz/v1/footprint?activity=${distance}/&activityType=miles&country=usa&mode=${transportation}`)
-  .then(res => res.json())
-  .then(json => ({
-    type: C.FETCH_CARBON_FOOTPRINT,
-    payload: carbonFootprint
-  }))
-}
+//  export const fetchCarbonFootprint = (distance, transporation) =>  {
+//   //  dispatch fetching action
+//   fetch(`api.triptocarbon.xyz/v1/footprint?activity=${distance}/&activityType=miles&country=usa&mode=${transportation}`)
+//   .then(res => res.json())
+//   .then(json => ({
+//     type: C.FETCH_CARBON_FOOTPRINT,
+//     payload: carbonFootprint
+//   }))
+// }
 
 export const fetchDistance = (origin, destination) =>  {
   //  dispatch fetching action
-  fetch(``)
+  fetch(`https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&key=${key.expo.ios.config.googleMapsApiKey}`)
   .then(res => res.json())
   .then(json => ({
     type: C.FETCH_GOOGLE_DISTANCE,
@@ -144,61 +145,3 @@ export const fetchDistance = (origin, destination) =>  {
   }))
 }
 
-
-  // fetch course data and dispatch suggestions
-
-/*
-
-export const addAlert = (alertMessage) => ({
-    type: C.ADD_ALERT,
-    payload: alertMessage
-})
-
-export const clearAlert = (alertMessage) => ({
-    type: C.CLEAR_ALERT,
-    payload: alertMessage
-})
-
-
-export const fetchCitiBikeStations = () => (dispatch) => {
-  dispatch({
-    type: C.FETCH_CITIBIKE_STATION
-  })
-    
-  const url = 'https://gbfs.citibikenyc.com/gbfs/en/station_information.json';
-
-  fetch(url)
-    .then(response => response.json())
-    .then(json => {
-      return {
-        type: C.CHANGE_CITIBIKE_STATIONS,
-        payload: json
-      }
-    }).catch(err => {
-      dispatch(addError(err));
-
-      dispatch({
-        type: C.CANCEL_FETCHING
-      })
-    })
-}
-*/
- // fetch citi bike station and dispatch suggestions
-//  rewrite in fetch
-
-
- // fetch all data
-/*
-export const fetchAllData = ()  => {
-  dispatch({
-    type: C.FETCH_ALL_DATA
-  })
-  try{ 
-    let data = await Promise.all([fetchCitiBikeStations(), fetchShuttle(), fetchMTA()]);
-    return data;
-  } catch (error){
-    dispatch(addError(error));
-    throw(error);
-  }
-}
-*/

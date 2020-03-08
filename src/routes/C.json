@@ -1,0 +1,274 @@
+{
+    "Mon": [
+        {
+            "603 E 20th St.": "7:30",
+            "Ave C & 18th St.": "7:32",
+            "Ave. C & 16th St.": "7:33",
+            "Ave. C & 14th St.": "7:34",
+            "14th St. & Ave. B": "7:35",
+            "14th St. & Ave. A": "7:37",
+            "14th St. & 1st Ave.": "7:40",
+            "3rd Ave. & 13th St.": "7:43",
+            "715 Broadway": "7:47"
+        },
+        {
+            "603 E 20th St.": "8:00",
+            "Ave C & 18th St.": "8:02",
+            "Ave. C & 16th St.": "8:03",
+            "Ave. C & 14th St.": "8:04",
+            "14th St. & Ave. B": "8:05",
+            "14th St. & Ave. A": "8:07",
+            "14th St. & 1st Ave.": "8:10",
+            "3rd Ave. & 13th St.": "8:13",
+            "715 Broadway": "8:17"
+        },
+        {
+            "603 E 20th St.": "8:30",
+            "Ave C & 18th St.": "8:32",
+            "Ave. C & 16th St.": "8:33",
+            "Ave. C & 14th St.": "8:34",
+            "14th St. & Ave. B": "8:35",
+            "14th St. & Ave. A": "8:37",
+            "14th St. & 1st Ave.": "8:40",
+            "3rd Ave. & 13th St.": "8:43",
+            "715 Broadway": "8:47"
+        },
+        {
+            "603 E 20th St.": "9:00",
+            "Ave C & 18th St.": "9:02",
+            "Ave. C & 16th St.": "9:03",
+            "Ave. C & 14th St.": "9:04",
+            "14th St. & Ave. B": "9:05",
+            "14th St. & Ave. A": "9:07",
+            "14th St. & 1st Ave.": "9:10",
+            "3rd Ave. & 13th St.": "9:13",
+            "715 Broadway": "9:17"
+        },
+        {
+            "603 E 20th St.": "9:50",
+            "Ave C & 18th St.": "9:52",
+            "Ave. C & 16th St.": "9:53",
+            "Ave. C & 14th St.": "9:54",
+            "14th St. & Ave. B": "9:55",
+            "14th St. & Ave. A": "9:57",
+            "14th St. & 1st Ave.": "10:00",
+            "3rd Ave. & 13th St.": "10:03",
+            "715 Broadway": "10:07"
+        },
+        {
+            "603 E 20th St.": "10:30",
+            "Ave C & 18th St.": "10:32",
+            "Ave. C & 16th St.": "10:33",
+            "Ave. C & 14th St.": "10:34",
+            "14th St. & Ave. B": "10:35",
+            "14th St. & Ave. A": "10:37",
+            "14th St. & 1st Ave.": "10:40",
+            "3rd Ave. & 13th St.": "10:43",
+            "715 Broadway": "10:47"
+        }
+    ],
+    "Tue": [
+        {
+            "603 E 20th St.": "7:30",
+            "Ave C & 18th St.": "7:32",
+            "Ave. C & 16th St.": "7:33",
+            "Ave. C & 14th St.": "7:34",
+            "14th St. & Ave. B": "7:35",
+            "14th St. & Ave. A": "7:37",
+            "14th St. & 1st Ave.": "7:40",
+            "3rd Ave. & 13th St.": "7:43",
+            "715 Broadway": "7:47"
+        },
+        {
+            "603 E 20th St.": "8:00",
+            "Ave C & 18th St.": "8:02",
+            "Ave. C & 16th St.": "8:03",
+            "Ave. C & 14th St.": "8:04",
+            "14th St. & Ave. B": "8:05",
+            "14th St. & Ave. A": "8:07",
+            "14th St. & 1st Ave.": "8:10",
+            "3rd Ave. & 13th St.": "8:13",
+            "715 Broadway": "8:17"
+        },
+        {
+            "603 E 20th St.": "8:30",
+            "Ave C & 18th St.": "8:32",
+            "Ave. C & 16th St.": "8:33",
+            "Ave. C & 14th St.": "8:34",
+            "14th St. & Ave. B": "8:35",
+            "14th St. & Ave. A": "8:37",
+            "14th St. & 1st Ave.": "8:40",
+            "3rd Ave. & 13th St.": "8:43",
+            "715 Broadway": "8:47"
+        },
+        {
+            "603 E 20th St.": "9:00",
+            "Ave C & 18th St.": "9:02",
+            "Ave. C & 16th St.": "9:03",
+            "Ave. C & 14th St.": "9:04",
+            "14th St. & Ave. B": "9:05",
+            "14th St. & Ave. A": "9:07",
+            "14th St. & 1st Ave.": "9:10",
+            "3rd Ave. & 13th St.": "9:13",
+            "715 Broadway": "9:17"
+        },
+        {
+            "603 E 20th St.": "9:50",
+            "Ave C & 18th St.": "9:52",
+            "Ave. C & 16th St.": "9:53",
+            "Ave. C & 14th St.": "9:54",
+            "14th St. & Ave. B": "9:55",
+            "14th St. & Ave. A": "9:57",
+            "14th St. & 1st Ave.": "10:00",
+            "3rd Ave. & 13th St.": "10:03",
+            "715 Broadway": "10:07"
+        },
+        {
+            "603 E 20th St.": "10:30",
+            "Ave C & 18th St.": "10:32",
+            "Ave. C & 16th St.": "10:33",
+            "Ave. C & 14th St.": "10:34",
+            "14th St. & Ave. B": "10:35",
+            "14th St. & Ave. A": "10:37",
+            "14th St. & 1st Ave.": "10:40",
+            "3rd Ave. & 13th St.": "10:43",
+            "715 Broadway": "10:47"
+        }
+    ],
+    "Wed": [
+        {
+            "603 E 20th St.": "7:30",
+            "Ave C & 18th St.": "7:32",
+            "Ave. C & 16th St.": "7:33",
+            "Ave. C & 14th St.": "7:34",
+            "14th St. & Ave. B": "7:35",
+            "14th St. & Ave. A": "7:37",
+            "14th St. & 1st Ave.": "7:40",
+            "3rd Ave. & 13th St.": "7:43",
+            "715 Broadway": "7:47"
+        },
+        {
+            "603 E 20th St.": "8:00",
+            "Ave C & 18th St.": "8:02",
+            "Ave. C & 16th St.": "8:03",
+            "Ave. C & 14th St.": "8:04",
+            "14th St. & Ave. B": "8:05",
+            "14th St. & Ave. A": "8:07",
+            "14th St. & 1st Ave.": "8:10",
+            "3rd Ave. & 13th St.": "8:13",
+            "715 Broadway": "8:17"
+        },
+        {
+            "603 E 20th St.": "8:30",
+            "Ave C & 18th St.": "8:32",
+            "Ave. C & 16th St.": "8:33",
+            "Ave. C & 14th St.": "8:34",
+            "14th St. & Ave. B": "8:35",
+            "14th St. & Ave. A": "8:37",
+            "14th St. & 1st Ave.": "8:40",
+            "3rd Ave. & 13th St.": "8:43",
+            "715 Broadway": "8:47"
+        },
+        {
+            "603 E 20th St.": "9:00",
+            "Ave C & 18th St.": "9:02",
+            "Ave. C & 16th St.": "9:03",
+            "Ave. C & 14th St.": "9:04",
+            "14th St. & Ave. B": "9:05",
+            "14th St. & Ave. A": "9:07",
+            "14th St. & 1st Ave.": "9:10",
+            "3rd Ave. & 13th St.": "9:13",
+            "715 Broadway": "9:17"
+        },
+        {
+            "603 E 20th St.": "9:50",
+            "Ave C & 18th St.": "9:52",
+            "Ave. C & 16th St.": "9:53",
+            "Ave. C & 14th St.": "9:54",
+            "14th St. & Ave. B": "9:55",
+            "14th St. & Ave. A": "9:57",
+            "14th St. & 1st Ave.": "10:00",
+            "3rd Ave. & 13th St.": "10:03",
+            "715 Broadway": "10:07"
+        },
+        {
+            "603 E 20th St.": "10:30",
+            "Ave C & 18th St.": "10:32",
+            "Ave. C & 16th St.": "10:33",
+            "Ave. C & 14th St.": "10:34",
+            "14th St. & Ave. B": "10:35",
+            "14th St. & Ave. A": "10:37",
+            "14th St. & 1st Ave.": "10:40",
+            "3rd Ave. & 13th St.": "10:43",
+            "715 Broadway": "10:47"
+        }
+    ],
+    "Thu": [
+        {
+            "603 E 20th St.": "7:30",
+            "Ave C & 18th St.": "7:32",
+            "Ave. C & 16th St.": "7:33",
+            "Ave. C & 14th St.": "7:34",
+            "14th St. & Ave. B": "7:35",
+            "14th St. & Ave. A": "7:37",
+            "14th St. & 1st Ave.": "7:40",
+            "3rd Ave. & 13th St.": "7:43",
+            "715 Broadway": "7:47"
+        },
+        {
+            "603 E 20th St.": "8:00",
+            "Ave C & 18th St.": "8:02",
+            "Ave. C & 16th St.": "8:03",
+            "Ave. C & 14th St.": "8:04",
+            "14th St. & Ave. B": "8:05",
+            "14th St. & Ave. A": "8:07",
+            "14th St. & 1st Ave.": "8:10",
+            "3rd Ave. & 13th St.": "8:13",
+            "715 Broadway": "8:17"
+        },
+        {
+            "603 E 20th St.": "8:30",
+            "Ave C & 18th St.": "8:32",
+            "Ave. C & 16th St.": "8:33",
+            "Ave. C & 14th St.": "8:34",
+            "14th St. & Ave. B": "8:35",
+            "14th St. & Ave. A": "8:37",
+            "14th St. & 1st Ave.": "8:40",
+            "3rd Ave. & 13th St.": "8:43",
+            "715 Broadway": "8:47"
+        },
+        {
+            "603 E 20th St.": "9:00",
+            "Ave C & 18th St.": "9:02",
+            "Ave. C & 16th St.": "9:03",
+            "Ave. C & 14th St.": "9:04",
+            "14th St. & Ave. B": "9:05",
+            "14th St. & Ave. A": "9:07",
+            "14th St. & 1st Ave.": "9:10",
+            "3rd Ave. & 13th St.": "9:13",
+            "715 Broadway": "9:17"
+        },
+        {
+            "603 E 20th St.": "9:50",
+            "Ave C & 18th St.": "9:52",
+            "Ave. C & 16th St.": "9:53",
+            "Ave. C & 14th St.": "9:54",
+            "14th St. & Ave. B": "9:55",
+            "14th St. & Ave. A": "9:57",
+            "14th St. & 1st Ave.": "10:00",
+            "3rd Ave. & 13th St.": "10:03",
+            "715 Broadway": "10:07"
+        },
+        {
+            "603 E 20th St.": "10:30",
+            "Ave C & 18th St.": "10:32",
+            "Ave. C & 16th St.": "10:33",
+            "Ave. C & 14th St.": "10:34",
+            "14th St. & Ave. B": "10:35",
+            "14th St. & Ave. A": "10:37",
+            "14th St. & 1st Ave.": "10:40",
+            "3rd Ave. & 13th St.": "10:43",
+            "715 Broadway": "10:47"
+        }
+    ]
+}

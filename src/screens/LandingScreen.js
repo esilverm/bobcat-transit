@@ -23,7 +23,11 @@ export default function LandingScreen({navigation}) {
         <TouchableOpacity style={styles.setupButton} onPress={() => navigation.navigate('Onboarding')}>
           <Text style={styles.setupText}>Let's Start!</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.skipButton} onPress={() => navigation.navigate('Map')}>
+        <TouchableOpacity style={styles.skipButton} onPress={() => navigation.navigate('Map', {
+              name: "User Experience Design",
+              time: "Sun 1:00-2:15",
+              location: "721 Broadway"
+            })}>
           <Text style={styles.skipText}>Skip to Map</Text>
         </TouchableOpacity>
         <Background style={styles.Background}/>

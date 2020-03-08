@@ -1,11 +1,13 @@
 import React, {useState} from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Dimensions, Animated, TextInput} from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Dimensions, Animated, TextInput, KeyboardAvoidingView, ScrollView} from 'react-native';
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 import Avatar from "../../assets/img/BobcatLogo.svg";
-// CSS constant styles
+import fetch from 'cross-fetch';
 import SC from '../../styleConstants'
 import { getStoredState } from 'redux-persist';
+import Moment from 'moment';
+import { addCourse, setName } from '../actions/actions';
 
 export default class OnboardingScreen extends React.Component {
     state = {
@@ -13,6 +15,9 @@ export default class OnboardingScreen extends React.Component {
       lockName: true,
       course: '',
       courseFadeValue: new Animated.Value(0),
+      courseSuggestions: [],
+      year: 2020,
+      semester: 'su',
     }
     constructor(props) {
       super(props);
@@ -23,22 +28,55 @@ export default class OnboardingScreen extends React.Component {
     _courseFade = () => {
       Animated.timing(this.state.courseFadeValue, {
         toValue: 1,
-        duration: 1000
+        duration: 600
       }).start();
 
       this.setState({lockName: false })
     }
 
     _onChangeText = (key, value) => {
+      if(key == 'course'){
+        //===============================
+        // SCHEDGE
+        //===============================
+        fetch(`https://schedge.torchnyu.com/${this.state.year}/${this.state.semester}/search?query=${value}&limit=3`)
+          .then((res) => res.json())
+          .then((json) => {
+            // process here.
+            let listing = [];
+            json.forEach((course, i) => {
+              course.sections.forEach((section, i) => {
+                listing.push({
+                  name: section.name,
+                  time: Moment(section.meetings[0].beginDate).format('ddd h:mm') + Moment(section.meetings[0].beginDate).add(section.meetings[0].duration, 'minutes').format('-h:mm'),
+                  location: section.location,
+                })
+              })
+            });
+            console.log(listing)
+            this.setState({ courseSuggestions: [ {
+              name: "User Experience Design",
+              time: "Sun 1:00-2:15",
+              location: "721 Broadway"
+            }, ...listing] });
+          })
+          .catch(err => console.log(err));
+      }
       this.setState({ [key]: value });
     }
-  
+
     // Content Return
     render() {
-      const { navigation } = this.props;
-      
+      const { navigation, dispatch } = this.props;
+      // console.log(dispatch)
       return (
-        <View style={styles.container}>
+        <ScrollView 
+          style={styles.container}
+          contentContainerStyle={{
+            alignItems: 'flex-start', 
+            justifyContent: 'flex-start',
+          }}>
+        <KeyboardAvoidingView behavior="position">
           <TouchableOpacity 
             style={styles.backButton} 
             onPress={() => navigation.navigate('Landing')}>
@@ -92,17 +130,32 @@ export default class OnboardingScreen extends React.Component {
                 <Text style={[styles.messageText, styles.courseMessageText]}>What courses are you taking?</Text>
               </View>
             </View>
-          <View style={styles.responseContainer}>
+          <View style={[styles.responseContainer, styles.courseResponseContainer]}>
             <TextInput
               placeholder="Enter Course Title"
               placeholderTextColor="#DCDCDC"
-              style={styles.responseInput}
-              onChangeText={text => this.onChangeText('course', text)}
+              style={[styles.responseInput, styles.courseResponseInput]}
+              onChangeText={text => this._onChangeText('course', text)}
               value={this.state.course}
             />
+            <View style={styles.courseSuggestions}>
+              {
+                this.state.courseSuggestions.map((course, i) => {
+                  return (
+                    <TouchableOpacity onPress={() => navigation.navigate('Map', course)} key={i}>
+                      <View style={styles.courseItem}>
+                        <Text style={styles.courseTitle}>{course.name}</Text>
+                        <Text style={styles.courseSubtitle}>{course.time}</Text>
+                      </View>
+                    </TouchableOpacity>
+                  )
+                })
+              }
+            </View>
           </View>
           </Animated.View>
-        </View>
+          </KeyboardAvoidingView>
+        </ScrollView>
       );
     }
     
@@ -111,8 +164,6 @@ export default class OnboardingScreen extends React.Component {
 const styles = StyleSheet.create({
   container:{
     flex: 1, 
-    alignItems: 'flex-start', 
-    justifyContent: 'flex-start',
     backgroundColor: SC.PRIMARY,
     paddingTop: 50,
   },
@@ -122,7 +173,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: 50,
+    top: 0,
     left: 20,
     width: RFPercentage(6),
     height: RFPercentage(6),
@@ -200,7 +251,7 @@ const styles = StyleSheet.create({
     backgroundColor: SC.PRIMARY_DARK,
     color: '#DCDCDC',
     borderWidth: 1,
-    margin: RFPercentage(2),
+    marginRight: RFPercentage(2),
     paddingVertical: RFPercentage(1),
     paddingHorizontal: RFPercentage(2),
     width: '60%',
@@ -213,5 +264,36 @@ const styles = StyleSheet.create({
     aspectRatio: 5/6,
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  courseResponseContainer:{
+    height: RFPercentage(20),
+    alignItems: 'flex-start',
+    justifyContent: 'flex-end',
+    flexWrap: 'wrap'
+  },
+  courseResponseInput:{
+    width: '80%',
+    height: RFPercentage(7),
+    marginTop: 0
+  },
+  courseSuggestions:{
+    width: '80%',
+    marginRight: RFPercentage(2),
+  },
+  courseItem:{
+    padding: RFPercentage(1),
+    width: '100%',
+    backgroundColor: '#2D1A33',
+    justifyContent: 'center'
+  },
+  courseTitle:{
+    fontSize: RFPercentage(2),
+    fontFamily: 'fira-sans-extra-condensed-bold',
+    color: 'white'
+  },
+  courseSubtitle:{
+    fontSize: RFPercentage(1.75),
+    fontFamily: 'fira-sans-condensed-medium-italic',
+    color: '#ADADAD'
   }
 });
